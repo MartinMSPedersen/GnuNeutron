@@ -1,0 +1,3 @@
+#!/bin/bash
+exec java -server -jar neutron.jar $@
+#exec java -server -jar neutron.jar --minimax
