@@ -11,7 +11,9 @@ MAIN_OBJECTS = GnuNeutron.java NeutronBoard.java IllegalMoveException.java Compu
 
 
 JAVAC = ${PATH_TO_JAVAC}javac
-JAVAC_FLAGS =  -Xmaxwarns 5 -Xmaxerrs 5 -Xlint:all -source 1.6
+#JAVAC_FLAGS =  -Xmaxwarns 5 -Xmaxerrs 5 -Xlint:all -source 1.6
+#JAVAC_FLAGS =  -Xmaxwarns 5 -Xmaxerrs 5 -Xlint:all -source 1.7
+JAVAC_FLAGS =  -Xmaxwarns 5 -Xmaxerrs 5 -Xlint:all 
 
 all:	neutron 
 
